@@ -1,0 +1,1 @@
+export const LOGO_SRC: string = document.getElementById('boot-logo')?.getAttribute('src') ?? ''

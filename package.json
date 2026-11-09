@@ -1,0 +1,22 @@
+{
+  "name": "empyrium-launcher",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "web": "bun run build.ts",
+    "start": "bun run build.ts && electrobun dev",
+    "dev": "bun run build.ts --dev && electrobun dev --watch",
+    "build": "bun run build.ts && electrobun build --env=stable"
+  },
+  "dependencies": {
+    "adm-zip": "^0.6.1",
+    "electrobun": "1.18.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "@types/bun": "^1.4.2",
+    "rcedit": "^5.0.2",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
+  }
+}
