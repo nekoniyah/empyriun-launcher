@@ -85,6 +85,7 @@ export default {
       "cdn.modrinth.com",
       "edge.forgecdn.net",
       "mediafilecdn.curseforge.com",
+      "buy.stripe.com",
     ],
   },
   game: {
@@ -96,8 +97,12 @@ export default {
   },
   public: {
     websiteUrl: "https://mc.empyrium.quest/",
-    shopUrl: "https://shop.empyrium.quest/empyrium/",
-    adminUrl: "https://admin.empyrium.quest/empyrium/",
-    allowedLinkHosts: ["cdn.empyrium.quest", "shop.empyrium.quest"],
+    shopUrl: "https://shop.empyrium.quest/",
+    adminUrl: "https://admin.empyrium.quest/",
+    allowedLinkHosts: [
+      "cdn.empyrium.quest",
+      "shop.empyrium.quest",
+      "buy.stripe.com",
+    ],
   },
 } satisfies AppIdentity;
